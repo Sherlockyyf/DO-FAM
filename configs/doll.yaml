@@ -1,0 +1,30 @@
+# DOLL training (Sec. 2.3 / 3 of the DO-FAM paper)
+model:
+  style_dim: 9216      # 18 x 512 W+ code
+  hidden_dim: 9216     # all modules: three fully-connected layers
+  depth: 3
+
+attributes: [Smiling, Male, Eyeglasses, Young]
+
+train_ratio: 1.0       # the HyperStyle latents of the CelebA-HQ training split are used entirely
+batch_size: 16
+epochs: 20
+lr: 1.0e-4
+betas: [0.9, 0.999]
+weight_decay: 5.0e-4
+step_size: 4           # StepLR, in epochs
+gamma: 0.1
+workers: 0
+
+adaptive_alpha: true   # alpha = distance of the predicted probability to the flipped label
+corr_threshold: 1.0
+ort_mode: gram         # gram: as in the released models | elementwise: Eq. (5) of the paper
+
+lambda:                # Eq. (9)
+  re: 1.0
+  un: 1.0
+  reg: 100.0
+  ort: 1.0
+
+log_interval: 100
+image_interval: 5000

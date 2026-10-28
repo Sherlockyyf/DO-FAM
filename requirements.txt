@@ -1,0 +1,14 @@
+torch>=1.8
+torchvision>=0.9
+numpy
+scipy
+pillow
+pyyaml
+tqdm
+tensorboard
+gradio>=3.40      # app.py
+
+# optional
+# lpips         # LPIPS in scripts/evaluate.py
+# pytorch-fid   # FID in scripts/evaluate.py
+# dlib          # face alignment of in-the-wild photos

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+gradio_cached_examples/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Data, weights and outputs
+pretrained_models/
+data/
+test_data/
+inversion/
+experiments/
+outputs/
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+*.dat
+*.npy
