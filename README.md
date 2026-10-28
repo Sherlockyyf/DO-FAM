@@ -13,8 +13,6 @@
 **ICASSP 2023**
 
 <a href="https://doi.org/10.1109/ICASSP49357.2023.10095959"><img src="https://img.shields.io/badge/Paper-ICASSP%202023-blue" alt="Paper"></a>
-<a href="https://yifanyuan.com/#full-icassp23"><img src="https://img.shields.io/badge/Homepage-yifanyuan.com-green" alt="Homepage"></a>
-<a href="https://yifanyuan.com/lab/#p-icassp23"><img src="https://img.shields.io/badge/Lab-MUSE%20Lab-8a2be2" alt="MUSE Lab"></a>
 <a href="https://github.com/Sherlockyyf/VR-FAM"><img src="https://img.shields.io/badge/Previous-VR--FAM%20(ICASSP%202022)-orange" alt="VR-FAM"></a>
 <a href="#-gradio-demo"><img src="https://img.shields.io/badge/Demo-Gradio-ff7c00" alt="Demo"></a>
 <a href="https://pytorch.org"><img src="https://img.shields.io/badge/PyTorch-%E2%89%A51.8-ee4c2c?logo=pytorch&logoColor=white" alt="PyTorch"></a>
