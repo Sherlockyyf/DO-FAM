@@ -13,6 +13,8 @@
 **ICASSP 2023**
 
 <a href="https://doi.org/10.1109/ICASSP49357.2023.10095959"><img src="https://img.shields.io/badge/Paper-ICASSP%202023-blue" alt="Paper"></a>
+<a href="https://yifanyuan.com/#full-icassp23"><img src="https://img.shields.io/badge/Homepage-yifanyuan.com-green" alt="Homepage"></a>
+<a href="https://yifanyuan.com/lab/#p-icassp23"><img src="https://img.shields.io/badge/Lab-MUSE%20Lab-8a2be2" alt="MUSE Lab"></a>
 <a href="https://github.com/Sherlockyyf/VR-FAM"><img src="https://img.shields.io/badge/Previous-VR--FAM%20(ICASSP%202022)-orange" alt="VR-FAM"></a>
 <a href="#-gradio-demo"><img src="https://img.shields.io/badge/Demo-Gradio-ff7c00" alt="Demo"></a>
 <a href="https://pytorch.org"><img src="https://img.shields.io/badge/PyTorch-%E2%89%A51.8-ee4c2c?logo=pytorch&logoColor=white" alt="PyTorch"></a>
@@ -23,11 +25,6 @@
 </div>
 
 **TL;DR:** Real facial attribute editing needs both **high reconstruction quality** and **high irrelevance preservation**. DO-FAM fine-tunes the StyleGAN2 generator per image with hypernetworks (HyperStyle) for faithful reconstruction, and edits latent codes with **DOLL**, a *Disentangled nOn-Linear Latent transformation module* that splits a code into attribute-related and attribute-unrelated parts and only navigates the former — non-linearly, under the guidance of a latent classifier. DO-FAM extends our [VR-FAM](https://github.com/Sherlockyyf/VR-FAM) (ICASSP 2022).
-
-## 📰 News
-
-- **2026-10** — 🔥 Refactored code: HyperStyle inversion without CUDA compilation, DOLL training / editing, sequential editing, a Gradio demo and evaluation scripts. Released checkpoints of the [original implementation](https://github.com/mst6750623/DO-FAM) load directly.
-- **2023-06** — DO-FAM is presented at ICASSP 2023.
 
 ## 🔍 Method
 
@@ -217,10 +214,6 @@ app.py                         # Gradio demo
   year      = {2022}
 }
 ```
-
-## 🙏 Acknowledgements
-
-This code builds on [HyperStyle](https://github.com/yuval-alaluf/hyperstyle), [encoder4editing](https://github.com/omertov/encoder4editing), [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel) and [stylegan2-pytorch](https://github.com/rosinality/stylegan2-pytorch); the decomposer is inspired by L2M-GAN (Yang et al., CVPR 2021). The original implementation is available at [mst6750623/DO-FAM](https://github.com/mst6750623/DO-FAM). This work was supported in part by the National Natural Science Foundation of China (Nos. 62176059 and 62101136).
 
 ## 📄 License
 
