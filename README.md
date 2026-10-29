@@ -18,6 +18,8 @@
 <a href="https://pytorch.org"><img src="https://img.shields.io/badge/PyTorch-%E2%89%A51.8-ee4c2c?logo=pytorch&logoColor=white" alt="PyTorch"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey" alt="License"></a>
 
+[English](README.md) · [简体中文](README_zh.md)
+
 <img src="assets/DO-FAM.gif" width="80%">
 
 </div>
